@@ -1,0 +1,75 @@
+body{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:90vh;
+    background-color:#e0dca1;
+}
+h1{
+    text-align: center;
+}
+.quizbox{
+    background-color:#e0dca1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    max-height: 1000px;
+    background-color:#e0dca1;
+    box-shadow:2px 2px 100px  #E1741E ;
+    
+}
+.opt{
+    max-width: 1000px;
+    text-align: left;
+    padding: 8px 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.options{
+    display: none;
+    border: 2px solid black;
+   
+}
+label{
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 4px 4px 4px #E1741E;
+}
+
+label:hover{
+    background-color: #f4ec80;
+    transition: all 0.2s linear;
+    padding: 10px;
+   
+}
+button{
+    height: 40px;
+    width: 70px;
+    padding: 4px;
+    margin: 4px 0px;
+    border: 2px solid #f4ec80;
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px #E1741E;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#exit{
+    margin-left: 8px;
+}
+button:hover{
+    background-color: #FAB405;
+    height: 45px;
+    width: 75px;
+    box-shadow:3px 3px 4px #E1741E ;
+    transition: all 0.3s linear;
+    
+}
